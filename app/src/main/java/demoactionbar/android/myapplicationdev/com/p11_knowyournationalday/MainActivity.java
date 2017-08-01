@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onClick(DialogInterface dialog, int which) {
 
                             if (which == 0) {
-                                Toast.makeText(MainActivity.this, "Email", Toast.LENGTH_LONG).show();
+                                //Toast.makeText(MainActivity.this, "Email", Toast.LENGTH_LONG).show();
                                 // The action you want this intent to do;
                                 // ACTION_SEND is used to indicate sending text
                                 Intent email = new Intent(Intent.ACTION_SEND);
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
                             } else {
 
-                                Toast.makeText(MainActivity.this, "SMS", Toast.LENGTH_LONG).show();
+                                //Toast.makeText(MainActivity.this, "SMS", Toast.LENGTH_LONG).show();
 
                                 // The action you want this intent to do;
                                 // ACTION_SEND is used to indicate sending text
